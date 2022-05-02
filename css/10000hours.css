@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+
+
+
+body {
+    background-color: #5B2386;
+}
+.blind {
+
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        clip-path: polygon(0 0, 0 0, 0 0);
+
+}
+.title_img {
+    line-height: 15px;
+    margin: 100px auto 46px;
+    width: 564px;
+    background-image: url(/img/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 265px;
+    height: 112px;
+    padding: 100px 0;
+    display: block;
+}
+
+.main_phrase {
+    width: 486px;
+    display: block;
+    margin: 0 auto;
+}
+
+.explain_project {
+    margin-top: 78px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'GmarketSansMedium';
+    line-height: 32px;
+}
+
+.explain_project span {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.input_data {
+    display: block;
+    margin-top: 102px;
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 82px;
+}
+
+input::placeholder {
+    color: #BABCBE;
+    font-size: 24px;
+    font-family: 'GmarketSansMedium';
+    text-align: center;
+}
+
+input {
+    border: none;
+    width: 228px;
+    height: 57px;
+    border-radius: 7px;
+}
+
+
+
+
+
+.dd {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.user_click_btn {
+    display: inline-block;
+    background-color: #FCEE21;
+    width: 565px;
+    height: 66px;
+    border-radius: 56px;
+    font-family: 'GmarketSansMedium';
+    font-size: 24px;
+    color: #5B2386;
+    text-align: center;
+    font-weight: 700;
+}
+.click_icon {
+    display: inline-block;
+}
+
+
+
+
+.calculate_result {
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 82px;
+    margin-top: 147px;
+}
+
+.calculate_result span {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.go {
+    width: 356px;
+}
+
+.share {
+    margin-left: 18px;
+    width: 191px;
+    background-color: #FFFFFF;
+}
+
+.footer {
+text-align: center;
+    margin: 130px 0 116px;
+}
+
+.logo {
+    width: 125px;
+    margin-bottom: 20px;
+}
+
+.notice {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+
+@media screen and (max-width: 768px) { 
+    .title_img {
+        width: 267px;
+        height: 53px;
+        background-size: 125px;
+        margin: 41px auto 31px;
+    }
+    .main_phrase {
+    width: 297px;}
+    .explain_project {
+        margin-top: 62px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .explain_project span {
+        font-size: 16px;
+    }
+    .input_data {
+        display: block;
+        margin-top: 62px;
+        font-size: 14px;
+        line-height: 52px;
+    }
+    
+    input::placeholder {
+        font-size: 14px;
+    }
+    
+    input {
+        width:156px;
+        height: 37px;
+        border-radius: 7px;
+    }
+    .dd {
+        margin-top: 49px;
+    }
+    .user_click_btn {
+        width: 241px;
+        height: 68px;
+        border-radius: 13px;
+        font-size: 14px;
+        margin-left: 40px;
+    }
+    
+
+.calculate_result {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 40px;
+    margin-top: 64px;
+}
+
+.calculate_result span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.go {
+    width: 186px;
+    border-radius: 56px;
+}
+
+.share {
+    margin-left: 13px;
+    width: 92px;
+    border-radius: 56px;
+}
+
+.footer {
+    margin: 83px 0 70px;
+}
+
+.logo {
+    width: 91px;
+    margin-bottom: 17px;
+}
+
+.notice {
+    font-size: 9px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+    
+}
+
