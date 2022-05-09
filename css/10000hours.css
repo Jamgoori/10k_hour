@@ -126,6 +126,8 @@ input {
 }
 .click_icon {
     display: inline-block;
+    width: 64px;
+    height: 72px;
 }
 
 
@@ -268,4 +270,10 @@ text-align: center;
     width: 92px;
     height: 40px;
 }
+.click_icon {
+    width: 42px;
+    height: 48px;
+    margin-top: 20px;
+}
+
 }
